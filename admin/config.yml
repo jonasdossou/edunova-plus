@@ -20,10 +20,10 @@ backend:
   gateway_url: https://gateway.decapbridge.com
 
 locale: fr
-# site_url: https://edunovaplus.org
-# display_url: https://edunovaplus.org
-site_url: https://edunova-plus.netlify.app
-display_url: https://edunova-plus.netlify.app
+site_url: https://www.edunovaplus.org
+display_url: https://www.edunovaplus.org
+# site_url: https://edunova-plus.netlify.app
+# display_url: https://edunova-plus.netlify.app
 logo_url: /images/logo-edunova.svg
 media_folder: images/uploads
 public_folder: /images/uploads
