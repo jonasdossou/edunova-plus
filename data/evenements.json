@@ -1,17 +1,27 @@
 {
   "items": [
     {
-      "id": "don-de-sang",
-      "titre": "Don de sang",
-      "annuel": true,
-      "mois": 11,
+      "annuel": false,
+      "lieu": "Parakou",
+      "titre": "Marche du mois : Octobre Rose ",
+      "date": "2026-10-24",
+      "mois": 0,
+      "heure": "07h",
+      "image": "/images/uploads/engcoh.jpg",
+      "texte": "Journée de Marche de soutien aux femmes de Parakou Bénin "
+    },
+    {
       "periode": "Chaque année en novembre",
-      "date": "2026-11-01",
       "heure": "08:00-12:00",
+      "mois": 11,
       "lieu": "Parakou, Bénin",
-      "programme": "",
+      "date": "2026-11-01",
+      "titre": "Don de sang",
+      "texte": "Chaque année en novembre, Edunova+ organise une action de don de sang en faveur de la santé et de la solidarité communautaire.\n\nCette mobilisation accompagne une campagne de sensibilisation et de dépistage du diabète, contribuant à la prévention et à la promotion de comportements favorables à la santé.",
+      "id": "don-de-sang",
       "image": "",
-      "texte": "Chaque année en novembre, Edunova+ organise une action de don de sang en faveur de la santé et de la solidarité communautaire.\n\nCette mobilisation accompagne une campagne de sensibilisation et de dépistage du diabète, contribuant à la prévention et à la promotion de comportements favorables à la santé."
+      "annuel": true,
+      "programme": ""
     }
   ]
 }
