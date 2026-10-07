@@ -1,0 +1,200 @@
+# =====================================================================
+#  ESPACE ÉQUIPE EDUNOVA+ (Decap CMS)
+#  Seul le bloc « backend » est à adapter lors de l'installation
+#  (voir LISEZMOI.txt, partie 3). Le reste est déjà prêt.
+# =====================================================================
+
+# --- À REMPLACER par le bloc « backend » fourni par DecapBridge ---
+backend:
+  name: github
+  repo: VOTRE-COMPTE-GITHUB/edunova-site
+  branch: main
+# ------------------------------------------------------------------
+
+locale: fr
+site_url: https://edunovaplus.org
+display_url: https://edunovaplus.org
+logo_url: /images/logo-edunova.svg
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: actualites
+    label: Actualités
+    editor: { preview: false }
+    files:
+      - name: liste
+        label: Toutes les actualités
+        file: data/actualites.json
+        fields:
+          - name: items
+            label: Actualités
+            label_singular: actualité
+            widget: list
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.date}} · {{fields.titre}}"
+            fields:
+              - { name: titre, label: Titre, widget: string }
+              - { name: date, label: Date de publication, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+              - name: categorie
+                label: Catégorie
+                widget: select
+                options: ["Edunova+", "Programmes", "Événements", "Opportunités", "Témoignages", "Ressources"]
+              - name: programme
+                label: Programme lié (facultatif)
+                widget: select
+                required: false
+                options: &progs
+                  - { label: "Imarra", value: "imarra" }
+                  - { label: "Espace Agora", value: "espace-agora" }
+                  - { label: "Acquis", value: "acquis" }
+                  - { label: "Samedi+", value: "samedi-plus" }
+                  - { label: "Tremplin+", value: "tremplin-plus" }
+                  - { label: "Imarra Échos", value: "imarra-echos" }
+                  - { label: "Nafasi", value: "nafasi" }
+                  - { label: "Jaano", value: "jaano" }
+              - { name: image, label: Photo, widget: image, required: false, choose_url: false }
+              - { name: auteur, label: Auteur (facultatif), widget: string, required: false, hint: "Exemple : L'équipe Edunova+" }
+              - { name: extrait, label: Résumé affiché sur la carte (facultatif), widget: text, required: false, hint: "2 lignes maximum. Si vide, le début de l'article est utilisé." }
+              - name: texte
+                label: Article
+                widget: markdown
+                buttons: [bold, italic, link, heading-two, heading-three, quote, bulleted-list, numbered-list]
+                editor_components: [image]
+                modes: [rich_text]
+                hint: "Utilisez les boutons pour les titres, le gras, les listes et les liens. Le bouton + ajoute une photo dans l'article."
+
+  - name: programmes
+    label: Programmes
+    editor: { preview: false }
+    files:
+      - name: liste
+        label: Tous les programmes
+        file: data/programmes.json
+        fields:
+          - name: items
+            label: Programmes
+            label_singular: programme
+            widget: list
+            collapsed: true
+            summary: "{{fields.ordre}}. {{fields.nom}} ({{fields.statut}})"
+            fields:
+              - { name: id, label: Identifiant (sans accent ni espace), widget: string, hint: "Ex. jaano. Ne pas modifier pour un programme existant." }
+              - { name: nom, label: Nom, widget: string }
+              - { name: ordre, label: Ordre d'affichage, widget: number, value_type: int }
+              - { name: statut, label: Statut, widget: select, options: [{ label: "Actif", value: "actif" }, { label: "En développement", value: "developpement" }, { label: "En préparation (bientôt)", value: "preparation" }, { label: "Réalisé", value: "realise" }] }
+              - { name: statutTexte, label: Texte du statut (fiche), widget: string, required: false, hint: "Ex. Programme réalisé - 2023-2024" }
+              - { name: badge, label: Étiquette sur la carte, widget: string, required: false, hint: "Ex. Réalisé · 2023-2024" }
+              - { name: signature, label: Phrase signature, widget: string }
+              - { name: accroche, label: Texte court (carte de l'accueil), widget: text }
+              - { name: tags, label: Mots-clés (séparés par ·), widget: string, required: false }
+              - { name: public, label: Public, widget: string, required: false }
+              - { name: besoin, label: Besoin auquel il répond, widget: string, required: false }
+              - { name: format, label: Format, widget: string, required: false }
+              - { name: zone, label: Zone, widget: string, required: false }
+              - { name: titre, label: Grand titre de la page, widget: string, required: false }
+              - { name: intro, label: Présentation, widget: text, required: false, hint: "Laissez une ligne vide entre deux paragraphes." }
+              - name: sections
+                label: Rubriques de la page
+                label_singular: rubrique
+                widget: list
+                required: false
+                fields:
+                  - { name: titre, label: Titre, widget: string }
+                  - { name: liste, label: Liste (un élément par ligne), widget: list, required: false }
+                  - { name: texte, label: Texte, widget: text, required: false }
+              - { name: image, label: Photo, widget: image, required: false, choose_url: false }
+              - { name: ton, label: Couleur de la carte, widget: select, required: false, options: [{ label: "Violet", value: "" }, { label: "Orange", value: "o" }, { label: "Lilas", value: "m" }] }
+              - { name: cta, label: Texte du bouton, widget: string, required: false }
+              - { name: parent, label: Programme parent (identifiant), widget: string, required: false }
+
+  - name: evenements
+    label: Événements
+    editor: { preview: false }
+    files:
+      - name: liste
+        label: Tous les événements
+        file: data/evenements.json
+        fields:
+          - name: items
+            label: Événements
+            label_singular: événement
+            widget: list
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.date}} · {{fields.titre}}"
+            fields:
+              - { name: titre, label: Titre, widget: string }
+              - { name: date, label: Date de l'événement, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, hint: "L'événement passe tout seul dans « Événements passés » le lendemain." }
+              - { name: annuel, label: Événement annuel (revient chaque année), widget: boolean, required: false, default: false }
+              - { name: mois, label: Mois (si annuel, 1 à 12), widget: number, value_type: int, required: false }
+              - { name: periode, label: Période affichée (si annuel), widget: string, required: false, hint: "Ex. Chaque année en novembre" }
+              - { name: heure, label: Heure (facultatif), widget: string, required: false, hint: "Exemple : 9h – 12h" }
+              - { name: lieu, label: Lieu, widget: string, default: "Parakou" }
+              - { name: programme, label: Programme lié (facultatif), widget: select, required: false, options: *progs }
+              - { name: image, label: Photo, widget: image, required: false, choose_url: false }
+              - { name: texte, label: Description, widget: text }
+
+  - name: equipe
+    label: Équipe
+    editor: { preview: false }
+    files:
+      - name: liste
+        label: Membres de l'équipe
+        file: data/equipe.json
+        fields:
+          - name: items
+            label: Membres
+            label_singular: membre
+            widget: list
+            collapsed: true
+            summary: "{{fields.nom}} · {{fields.fonction}}"
+            fields:
+              - { name: nom, label: Prénom et NOM, widget: string }
+              - { name: fonction, label: Fonction, widget: string }
+              - name: equipe
+                label: Équipe
+                widget: select
+                default: dirigeante
+                options: [{ label: "Bureau de création", value: "dirigeante" }, { label: "Conseil d’administration", value: "ca" }, { label: "Équipe opérationnelle", value: "operationnelle" }]
+              - { name: photo, label: Photo (carrée), widget: image, required: false, choose_url: false }
+              - { name: bio, label: Courte biographie (facultatif), widget: text, required: false }
+
+  - name: partenaires
+    label: Partenaires
+    editor: { preview: false }
+    files:
+      - name: liste
+        label: Logos des partenaires
+        file: data/partenaires.json
+        fields:
+          - name: items
+            label: Partenaires
+            label_singular: partenaire
+            widget: list
+            collapsed: true
+            summary: "{{fields.nom}}"
+            fields:
+              - { name: nom, label: Nom, widget: string }
+              - { name: logo, label: Logo, widget: image, required: false, choose_url: false }
+              - { name: lien, label: Site web (facultatif), widget: string, required: false }
+
+  - name: parametres
+    label: Paramètres du site
+    editor: { preview: false }
+    files:
+      - name: config
+        label: Coordonnées, réseaux sociaux et formulaires
+        file: data/config.json
+        fields:
+          - { name: email, label: E-mail de contact, widget: string, required: false }
+          - { name: telephone, label: Téléphone affiché, widget: string, required: false }
+          - { name: whatsapp, label: Numéro WhatsApp, widget: string, required: false, hint: "Chiffres uniquement, avec l'indicatif. Exemple : 2290162450976" }
+          - { name: taplink, label: Page Taplink (tous les réseaux), widget: string, required: false }
+          - { name: facebook, label: Page Facebook (adresse complète), widget: string, required: false }
+          - { name: instagram, label: Instagram (adresse complète), widget: string, required: false }
+          - { name: linkedin, label: LinkedIn (adresse complète), widget: string, required: false }
+          - { name: youtube, label: YouTube (adresse complète), widget: string, required: false }
+          - { name: web3formsKey, label: Clé Web3Forms (réception des formulaires), widget: string, required: false }
+          - { name: hebergeur, label: Hébergeur (mentions légales), widget: string, required: false }

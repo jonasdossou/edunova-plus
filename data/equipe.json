@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "nom": "Dotou Emmanuel AGBOCHAN",
+      "fonction": "Président",
+      "equipe": "dirigeante",
+      "photo": "",
+      "bio": ""
+    },
+    {
+      "nom": "Saharatou BAGUIRI",
+      "fonction": "Secrétaire Générale",
+      "equipe": "dirigeante",
+      "photo": "",
+      "bio": ""
+    },
+    {
+      "nom": "Iboukoun Euloge TOSSOU",
+      "fonction": "Trésorier Général",
+      "equipe": "dirigeante",
+      "photo": "",
+      "bio": ""
+    }
+  ]
+}

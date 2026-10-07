@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": "don-de-sang",
+      "titre": "Don de sang",
+      "annuel": true,
+      "mois": 11,
+      "periode": "Chaque année en novembre",
+      "date": "2026-11-01",
+      "heure": "",
+      "lieu": "",
+      "programme": "",
+      "image": "",
+      "texte": "Chaque année en novembre, Edunova+ organise une action de don de sang en faveur de la santé et de la solidarité communautaire.\n\nCette mobilisation accompagne une campagne de sensibilisation et de dépistage du diabète, contribuant à la prévention et à la promotion de comportements favorables à la santé."
+    }
+  ]
+}

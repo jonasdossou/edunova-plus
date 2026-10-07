@@ -1,0 +1,130 @@
+SITE EDUNOVA+ — MODE D'EMPLOI
+=============================
+
+Le site comprend :
+- le site public (24 pages) ;
+- un ESPACE ÉQUIPE (adresse : votresite.org/admin) pour publier les actualités,
+  les événements, l'équipe, les partenaires et les coordonnées, avec des
+  formulaires et un bouton « Publier », sans toucher au code.
+
+L'installation se fait UNE SEULE FOIS (environ 45 minutes, idéalement avec
+quelqu'un d'à l'aise avec l'informatique). Ensuite, publier est aussi simple
+que remplir un formulaire.
+
+
+1. AJOUTER LES PHOTOS FIXES DU SITE
+-----------------------------------
+Déposez vos photos dans le dossier « images » avec EXACTEMENT ces noms.
+Tant qu'une photo manque, le site affiche un fond aux couleurs d'Edunova+.
+
+  images/accueil-1.jpg            Grande image d'accueil n°1 (jeunes en atelier)
+  images/accueil-2.jpg            Grande image d'accueil n°2 (Imarra)
+  images/accueil-3.jpg            Grande image d'accueil n°3 (communauté)
+  images/qui-sommes-nous.jpg      Accueil, bloc « Qui sommes-nous ? »
+  images/qui-sommes-nous-2.jpg    Page « Qui sommes-nous ? »
+  images/vision.jpg               Page « Notre vision »
+  images/domaine-1.jpg à domaine-5.jpg   Les 5 domaines d'intervention (dans l'ordre)
+  images/programmes/imarra.jpg
+  images/programmes/espace-agora.jpg
+  images/programmes/acquis.jpg
+  images/programmes/samedi-plus.jpg
+  images/programmes/tremplin-plus.jpg
+  images/programmes/imarra-echos.jpg
+  images/programmes/nafasi.jpg
+  images/partage.jpg              Image affichée quand on partage le site sur
+                                  WhatsApp ou Facebook (1200 x 630)
+
+Les photos des actualités, des événements, de l'équipe et les logos des
+partenaires s'ajoutent directement depuis l'espace équipe.
+
+Conseils : compressez les photos (gratuit sur https://squoosh.app), idéalement
+moins de 300 Ko chacune. N'utilisez que des photos pour lesquelles les personnes
+ont donné leur accord, et l'accord écrit des parents pour les mineurs.
+
+
+2. INSTALLER LE SITE EN LIGNE (une seule fois)
+----------------------------------------------
+L'espace équipe fonctionne avec trois services gratuits :
+GitHub (range les fichiers), Netlify (affiche le site) et DecapBridge
+(gère la connexion de l'équipe par e-mail et mot de passe).
+
+a. GITHUB — https://github.com
+   - Créez un compte au nom d'Edunova+.
+   - Créez un dépôt (« New repository ») nommé edunova-site.
+   - Cliquez sur « uploading an existing file » et glissez-déposez TOUT le
+     contenu du dossier du site (pas le dossier lui-même). Validez.
+
+b. NETLIFY — https://app.netlify.com
+   - Connectez-vous avec le compte GitHub.
+   - « Add new site » > « Import an existing project » > GitHub >
+     choisissez edunova-site.
+   - Laissez « Build command » vide, « Publish directory » vide, puis « Deploy ».
+   - Le site est en ligne. Dans « Domain management », reliez votre nom de
+     domaine (ex. edunovaplus.org).
+   À chaque publication depuis l'espace équipe, Netlify met le site à jour tout
+   seul en une à deux minutes.
+
+c. DECAPBRIDGE — https://decapbridge.com
+   - Créez un compte et ajoutez votre site (dépôt GitHub + adresse du site).
+     Consultez leurs conditions d'utilisation actuelles.
+   - DecapBridge vous donne un bloc « backend ». Ouvrez le fichier
+     admin/config.yml sur GitHub (icône crayon) et remplacez les 4 lignes du
+     bloc « backend » par celui de DecapBridge. Enregistrez (« Commit changes »).
+   - Invitez les membres de l'équipe par e-mail depuis DecapBridge : ils créent
+     leur mot de passe, sans avoir besoin de compte GitHub.
+
+d. FORMULAIRES — https://web3forms.com
+   - Entrez l'adresse e-mail qui doit recevoir les demandes et créez une clé.
+   - Dans l'espace équipe : « Paramètres du site » > collez la clé dans
+     « Clé Web3Forms » > Publier.
+   Les demandes (Nous rejoindre, partenariat, contact, newsletter) arrivent
+   alors par e-mail. Les abonnés newsletter peuvent ensuite être importés
+   dans un outil d'envoi comme Brevo.
+
+
+3. UTILISER L'ESPACE ÉQUIPE (au quotidien)
+------------------------------------------
+Allez sur votresite.org/admin et connectez-vous.
+
+Publier un article (blog / actualités) :
+  Actualités > Toutes les actualités > « Ajouter une actualité »
+  > titre, date, catégorie, photo de couverture, auteur, puis l'article.
+  L'éditeur fonctionne comme Word : boutons pour les intertitres, le gras,
+  l'italique, les listes, les citations et les liens ; le bouton « + » ajoute
+  une photo au milieu de l'article. Cliquez ensuite sur « Publier ».
+  Le site est à jour une à deux minutes plus tard.
+
+  Sur le site, le dernier article s'affiche « À la une », les lecteurs peuvent
+  rechercher un article, filtrer par catégorie et charger plus d'articles.
+  Chaque article affiche son auteur, son temps de lecture et des boutons de
+  partage WhatsApp, Facebook et LinkedIn.
+
+Publier un événement : même chose dans « Événements ». Il passe tout seul dans
+« Événements passés » le lendemain de sa date.
+
+Aussi modifiables : l'équipe (photos, fonctions, biographies), les partenaires
+(logos), et dans « Paramètres du site » : e-mail, téléphone, WhatsApp,
+réseaux sociaux. Tout champ laissé vide est masqué sur le site.
+
+Bon à savoir : si vous ouvrez index.html en double-cliquant sur votre
+ordinateur, les actualités et l'équipe n'apparaissent pas. C'est normal :
+elles s'affichent une fois le site en ligne.
+
+
+4. À VÉRIFIER AVANT LA MISE EN LIGNE
+------------------------------------
+- Le numéro affiché et utilisé pour WhatsApp (+229 01 62 45 09 76) est celui du
+  président dans les documents officiels : confirmez qu'il peut être public
+  (modifiable dans « Paramètres du site »).
+- L'équipe dirigeante reprend le bureau du récépissé de 2025 : mettez-la à jour
+  dans « Équipe » si elle a changé.
+- La page Mentions légales indique « Parakou » comme siège : les documents de
+  2025 et 2026 donnent deux adresses différentes, précisez la bonne si besoin.
+
+MISE À JOUR : contenus calibrés et programmes modifiables
+- Tous les textes de l'accueil et des pages Edunova+ ont été remplacés par la version calibrée.
+- Les programmes (dont le nouveau programme Jaano) sont dans data/programmes.json.
+  Ils se modifient depuis l'espace équipe (votresite/admin) > Programmes :
+  nom, phrase signature, public, besoin, services, format, zone, statut, textes de la page.
+- Un nouveau programme ajouté dans l'espace équipe apparaît automatiquement sur l'accueil,
+  la page Nos programmes et le pied de page (sa page : programme.html?id=identifiant).
