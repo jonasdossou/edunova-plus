@@ -1,16 +1,6 @@
 {
   "items": [
     {
-      "annuel": false,
-      "lieu": "Parakou",
-      "titre": "Marche du mois : Octobre Rose ",
-      "date": "2026-10-24",
-      "mois": 0,
-      "heure": "07h",
-      "image": "/images/uploads/engcoh.jpg",
-      "texte": "Journée de Marche de soutien aux femmes de Parakou Bénin "
-    },
-    {
       "periode": "Chaque année en novembre",
       "heure": "08:00-12:00",
       "mois": 11,
