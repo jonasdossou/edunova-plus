@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "annuel": false,
+      "lieu": "Parakou",
+      "titre": "ijo",
+      "date": "2026-10-14",
+      "texte": "lkjhuyf,jk"
+    },
+    {
       "periode": "Chaque année en novembre",
       "heure": "08:00-12:00",
       "mois": 11,
