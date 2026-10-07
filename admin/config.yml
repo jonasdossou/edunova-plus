@@ -5,15 +5,25 @@
 # =====================================================================
 
 # --- À REMPLACER par le bloc « backend » fourni par DecapBridge ---
-backend:
-  name: github
-  repo: VOTRE-COMPTE-GITHUB/edunova-site
-  branch: main
+# backend:
+#   name: github
+#   repo: VOTRE-COMPTE-GITHUB/edunova-site
+#   branch: main
 # ------------------------------------------------------------------
 
+# Use DecapBridge classic auth (required)
+backend:
+  name: git-gateway
+  repo: jonasdossou/edunova-plus
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/f1a62d03-8c2a-45e5-8a18-284853c7eb62
+  gateway_url: https://gateway.decapbridge.com
+
 locale: fr
-site_url: https://edunovaplus.org
-display_url: https://edunovaplus.org
+# site_url: https://edunovaplus.org
+# display_url: https://edunovaplus.org
+site_url: https://edunova-plus.netlify.app
+display_url: https://edunova-plus.netlify.app
 logo_url: /images/logo-edunova.svg
 media_folder: images/uploads
 public_folder: /images/uploads
