@@ -56,6 +56,7 @@
     function plain(t) { return String(t || '').replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/^[#>\-*+\s]+|\d+[.)]\s+/gm, '').replace(/[*_`]/g, '').replace(/\s+/g, ' ').trim() }
     function readTime(t) { var w = plain(t).split(' ').filter(Boolean).length; return Math.max(1, Math.round(w / 200)) + ' min de lecture' }
     function q(k) { var m = new RegExp('[?&]' + k + '=([^&#]*)').exec(location.search); return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : '' }
+    function whatsappUrl(number, message) { var digits = String(number || '').replace(/\D/g, ''); return digits ? 'https://wa.me/' + digits + (message ? '?text=' + encodeURIComponent(message) : '') : '' }
     var tones = ['', 'o', 'm'];
     function ph(tone, img, alt) { var mk = document.querySelector('.ph .mk'); return '<div class="ph ' + (tone || '') + '">' + (mk ? mk.outerHTML : '') + (img ? '<img src="' + esc(img) + '" alt="' + esc(alt || '') + '" loading="lazy" onerror="this.remove()">' : '') + '</div>' }
     function toast(h) { var t = $('#toast'); if (!t) return; t.innerHTML = h; t.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(function () { t.classList.remove('on') }, 4200) }
@@ -197,10 +198,12 @@
     $$('[data-cfg-block]').forEach(function (el) { if (!C[el.getAttribute('data-cfg-block')]) el.style.display = 'none' });
     var soc = [['facebook', 'Facebook'], ['instagram', 'Instagram'], ['linkedin', 'LinkedIn'], ['youtube', 'YouTube']].filter(function (s) { return C[s[0]] }).map(function (s) { return '<a href="' + esc(C[s[0]]) + '" target="_blank" rel="noopener">' + s[1] + '</a>' });
     if (C.taplink) soc.unshift('<a href="' + esc(C.taplink) + '" target="_blank" rel="noopener">Tous nos réseaux</a>');
-    if (C.whatsapp) soc.push('<a href="https://wa.me/' + esc(C.whatsapp) + '" target="_blank" rel="noopener">WhatsApp</a>');
+    var whatsappLink = whatsappUrl(C.whatsapp);
+    if (whatsappLink) soc.push('<a href="' + esc(whatsappLink) + '" target="_blank" rel="noopener">WhatsApp</a>');
     $$('[data-social]').forEach(function (el) { el.innerHTML = soc.join('') });
     $$('[data-social-block]').forEach(function (el) { if (!soc.length) el.style.display = 'none' });
-    var wa = $('#wa'); if (wa) { if (C.whatsapp) wa.href = 'https://wa.me/' + C.whatsapp + '?text=' + encodeURIComponent('Bonjour Edunova+, '); else wa.remove() }
+    var wa = $('#wa'), whatsappContactLink = whatsappUrl(C.whatsapp, 'Bonjour Edunova+, ');
+    if (wa) { if (whatsappContactLink) wa.href = whatsappContactLink; else wa.remove() }
     $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear() });
     var objet = q('objet'); if (objet && $('#f-objet')) $('#f-objet').value = objet;
     var prof = q('profil'); if (prof) { var map = { membre: 'Jeune / membre', benevole: 'Bénévole', mentor: 'Mentor', partenaire: 'Partenaire' }; var r = $('input[name="profil"][value="' + map[prof] + '"]'); if (r) r.checked = true; $$('[data-profile]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-profile') === prof) }) }
