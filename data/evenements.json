@@ -3,13 +3,13 @@
     {
       "periode": "Chaque année en novembre",
       "heure": "08:00-12:00",
-      "mois": 11,
+      "mois": "",
       "lieu": "Parakou, Bénin",
-      "date": "2026-11-01",
+      "date": "2026-12-05",
       "titre": "Don de sang",
-      "texte": "Chaque année en novembre, Edunova+ organise une action de don de sang en faveur de la santé et de la solidarité communautaire.\n\nCette mobilisation accompagne une campagne de sensibilisation et de dépistage du diabète, contribuant à la prévention et à la promotion de comportements favorables à la santé.",
+      "texte": "Chaque année en Décembre, Edunova+ organise une action de don de sang en faveur de la santé et de la solidarité communautaire.\n\nCette mobilisation accompagne une campagne de sensibilisation contribuant à la prévention et à la promotion de comportements favorables à la santé.",
       "id": "don-de-sang",
-      "image": "",
+      "image": "/images/uploads/ds.png",
       "annuel": true,
       "programme": ""
     }

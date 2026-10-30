@@ -1,263 +1,264 @@
 {
- "items": [
-  {
-   "id": "imarra",
-   "nom": "Imarra",
-   "ordre": 1,
-   "statut": "actif",
-   "ton": "o",
-   "signature": "Autonomisation et développement des compétences des jeunes femmes",
-   "accroche": "Développer ses compétences, renforcer son leadership et construire ses projets.",
-   "tags": "Leadership · numérique · entrepreneuriat",
-   "titre": "Des jeunes femmes qui développent leurs compétences et prennent leur place.",
-   "public": "Jeunes femmes",
-   "besoin": "Compétences, leadership et autonomie",
-   "format": "Ateliers pratiques, projets, échanges entre pairs, mentorat",
-   "zone": "Parakou",
-   "intro": "Imarra est le programme d’Edunova+ dédié à l’autonomisation et au développement des compétences des jeunes femmes.\n\nLe programme combine développement personnel, leadership, compétences numériques, créativité, entrepreneuriat et accompagnement de projets.",
-   "sections": [
+  "items": [
     {
-     "titre": "Ce que nous travaillons",
-     "liste": [
-      "Leadership et confiance en soi",
-      "Compétences numériques",
-      "Productivité et outils digitaux",
-      "Intelligence artificielle",
-      "Créativité et design",
-      "Communication et marketing",
-      "Entrepreneuriat",
-      "Gestion et développement de projet"
-     ]
+      "accroche": "Développer ses compétences, renforcer son leadership et construire ses projets.",
+      "besoin": "Compétences, leadership et autonomie",
+      "public": "Jeunes femmes",
+      "intro": "Imarra est le programme d’Edunova+ dédié à l’autonomisation et au développement des compétences des jeunes femmes.\n\nLe programme combine développement personnel, leadership, compétences numériques, créativité, entrepreneuriat et accompagnement de projets.",
+      "nom": "Imarra",
+      "zone": "Parakou",
+      "sections": [
+        {
+          "titre": "Ce que nous travaillons",
+          "liste": [
+            "Leadership et confiance en soi",
+            "Compétences numériques",
+            "Productivité et outils digitaux",
+            "Intelligence artificielle",
+            "Créativité et design",
+            "Communication et marketing",
+            "Entrepreneuriat",
+            "Gestion et développement de projet"
+          ]
+        },
+        {
+          "titre": "Notre approche",
+          "texte": "Imarra privilégie la pratique, les projets, les échanges entre pairs, le mentorat et la mise en situation.\n\nL’objectif n’est pas seulement d’acquérir de nouvelles compétences, mais de permettre aux participantes de les utiliser dans leurs études, leur activité, leur projet ou leur communauté."
+        }
+      ],
+      "cta": "Découvrir les activités Imarra",
+      "titre": "Des jeunes femmes qui développent leurs compétences et prennent leur place.",
+      "ton": "o",
+      "statut": "actif",
+      "ordre": 1,
+      "format": "Ateliers pratiques, projets, échanges entre pairs, mentorat",
+      "signature": "Autonomisation et développement des compétences des jeunes femmes",
+      "tags": "Leadership · numérique · entrepreneuriat",
+      "id": "imarra",
+      "image": ""
     },
     {
-     "titre": "Notre approche",
-     "texte": "Imarra privilégie la pratique, les projets, les échanges entre pairs, le mentorat et la mise en situation.\n\nL’objectif n’est pas seulement d’acquérir de nouvelles compétences, mais de permettre aux participantes de les utiliser dans leurs études, leur activité, leur projet ou leur communauté."
-    }
-   ],
-   "cta": "Découvrir les activités Imarra"
-  },
-  {
-   "id": "espace-agora",
-   "nom": "Espace Agora",
-   "ordre": 2,
-   "statut": "actif",
-   "ton": "",
-   "signature": "Un espace de proximité pour apprendre, créer et être accompagné",
-   "accroche": "Un espace destiné prioritairement aux jeunes de 18 à 30 ans à Parakou.",
-   "tags": "Orientation · pré-idéation · mentorat · réseau",
-   "titre": "Un espace de proximité pour apprendre, créer, être accompagné et accéder aux opportunités.",
-   "public": "Jeunes de 18 à 30 ans, avec une attention particulière portée aux jeunes femmes et aux publics confrontés à des vulnérabilités",
-   "besoin": "Orientation, projet, compétences",
-   "format": "Présentiel, ateliers, accompagnement",
-   "zone": "Parakou, Borgou",
-   "intro": "L’Espace Agora est un espace d’accompagnement généraliste de proximité basé à Parakou et destiné prioritairement aux jeunes de 18 à 30 ans.\n\nIl offre un environnement où les jeunes peuvent travailler, apprendre, tester une idée, rencontrer des personnes ressources et être orientés vers les dispositifs adaptés.",
-   "sections": [
-    {
-     "titre": "Les services",
-     "liste": [
-      "Coworking",
-      "Orientation",
-      "Renforcement de compétences",
-      "Pré-idéation",
-      "Coaching",
-      "Mentorat",
-      "Mise en réseau",
-      "Référencement vers des dispositifs spécialisés"
-     ]
+      "accroche": "Un espace destiné prioritairement aux jeunes de 18 à 30 ans à Parakou.",
+      "besoin": "Orientation, projet, compétences",
+      "public": "Jeunes de 18 à 30 ans, avec une attention particulière portée aux jeunes femmes et aux publics confrontés à des vulnérabilités",
+      "intro": "L’Espace Agora est un espace d’accompagnement généraliste de proximité basé à Parakou et destiné prioritairement aux jeunes de 18 à 30 ans.\n\nIl offre un environnement où les jeunes peuvent travailler, apprendre, tester une idée, rencontrer des personnes ressources et être orientés vers les dispositifs adaptés.",
+      "nom": "Espace Agora",
+      "zone": "Parakou, Borgou",
+      "sections": [
+        {
+          "titre": "Les services",
+          "liste": [
+            "Coworking",
+            "Orientation",
+            "Renforcement de compétences",
+            "Pré-idéation",
+            "Coaching",
+            "Mentorat",
+            "Mise en réseau",
+            "Référencement vers des dispositifs spécialisés"
+          ]
+        },
+        {
+          "titre": "Un parcours en plusieurs étapes",
+          "texte": "**Détecter → Renforcer → Accompagner → Orienter → Propulser**\n\nL’Espace Agora intervient particulièrement en amont : lorsque le jeune a une envie, une difficulté, une compétence ou une idée mais ne sait pas encore quelle étape franchir."
+        }
+      ],
+      "cta": "Découvrir l’Espace Agora",
+      "titre": "Un espace de proximité pour apprendre, créer, être accompagné et accéder aux opportunités.",
+      "ton": "",
+      "statut": "actif",
+      "ordre": 2,
+      "format": "Présentiel, ateliers, accompagnement",
+      "signature": "Un espace de proximité pour apprendre, créer et être accompagné",
+      "tags": "Orientation · pré-idéation · mentorat · réseau",
+      "id": "espace-agora"
     },
     {
-     "titre": "Un parcours en plusieurs étapes",
-     "texte": "**Détecter → Renforcer → Accompagner → Orienter → Propulser**\n\nL’Espace Agora intervient particulièrement en amont : lorsque le jeune a une envie, une difficulté, une compétence ou une idée mais ne sait pas encore quelle étape franchir."
-    }
-   ],
-   "cta": "Découvrir l’Espace Agora"
-  },
-  {
-   "id": "acquis",
-   "nom": "Acquis",
-   "ordre": 3,
-   "statut": "actif",
-   "ton": "m",
-   "signature": "Comprendre ses droits. Trouver les bons services.",
-   "accroche": "Faciliter l’accès des jeunes à l’information, aux ressources et aux services compétents.",
-   "tags": "Information · orientation · référencement",
-   "titre": "Comprendre ses droits. Trouver les bons services.",
-   "public": "Jeunes",
-   "besoin": "Droits, information, accès aux services",
-   "format": "Information, sensibilisation, orientation, référencement",
-   "zone": "",
-   "intro": "Acquis facilite l’accès des jeunes à l’information sur leurs droits, aux ressources disponibles et aux services compétents.\n\nLe programme agit principalement par l’information, l’orientation et le référencement.",
-   "sections": [
-    {
-     "titre": "Ce que nous proposons",
-     "liste": [
-      "Information accessible",
-      "Sensibilisation",
-      "Orientation",
-      "Mise en relation",
-      "Référencement vers les services compétents",
-      "Accès aux ressources utiles"
-     ]
+      "accroche": "Faciliter l’accès des jeunes à l’information, aux ressources et aux services compétents.",
+      "besoin": "Droits, information, accès aux services",
+      "public": "Jeunes",
+      "intro": "Acquis facilite l’accès des jeunes à l’information sur leurs droits, aux ressources disponibles et aux services compétents.\n\nLe programme agit principalement par l’information, l’orientation et le référencement.",
+      "nom": "Acquis",
+      "zone": "",
+      "sections": [
+        {
+          "titre": "Ce que nous proposons",
+          "liste": [
+            "Information accessible",
+            "Sensibilisation",
+            "Orientation",
+            "Mise en relation",
+            "Référencement vers les services compétents",
+            "Accès aux ressources utiles"
+          ]
+        },
+        {
+          "titre": "Notre principe",
+          "texte": "Lorsqu’une personne rencontre une difficulté, elle ne sait pas toujours quel service contacter, où trouver une information fiable ou quelle démarche entreprendre.\n\nAcquis contribue à réduire cette distance entre le besoin exprimé et la ressource pertinente."
+        }
+      ],
+      "cta": "Découvrir Acquis",
+      "titre": "Comprendre ses droits. Trouver les bons services.",
+      "ton": "m",
+      "statut": "actif",
+      "ordre": 3,
+      "format": "Information, sensibilisation, orientation, référencement",
+      "signature": "Comprendre ses droits. Trouver les bons services.",
+      "tags": "Information · orientation · référencement",
+      "id": "acquis"
     },
     {
-     "titre": "Notre principe",
-     "texte": "Lorsqu’une personne rencontre une difficulté, elle ne sait pas toujours quel service contacter, où trouver une information fiable ou quelle démarche entreprendre.\n\nAcquis contribue à réduire cette distance entre le besoin exprimé et la ressource pertinente."
-    }
-   ],
-   "cta": "Découvrir Acquis"
-  },
-  {
-   "id": "samedi-plus",
-   "nom": "Samedi+",
-   "ordre": 4,
-   "statut": "actif",
-   "ton": "o",
-   "signature": "Apprendre autrement.",
-   "accroche": "Des activités pratiques, créatives et numériques pour les 7-16 ans.",
-   "tags": "Numérique · créativité · STEM · découverte",
-   "titre": "Apprendre autrement.",
-   "public": "Enfants et adolescents de 7 à 16 ans",
-   "besoin": "Apprendre autrement, au-delà de la salle de classe",
-   "format": "Activités pratiques, créatives et numériques",
-   "zone": "",
-   "intro": "Samedi+ propose aux enfants et adolescents des activités pratiques, créatives et numériques qui complètent les apprentissages scolaires.\n\nLe programme vise à développer la curiosité, l’expérimentation et les compétences utiles au-delà de la salle de classe.",
-   "sections": [
-    {
-     "titre": "Les univers explorés",
-     "liste": [
-      "Numérique",
-      "Créativité",
-      "STEM",
-      "Soft skills",
-      "Éducation financière",
-      "Culture et découverte",
-      "Résolution de problèmes"
-     ]
+      "accroche": "Des activités pratiques, créatives et numériques pour les 7-16 ans.",
+      "besoin": "Apprendre autrement, au-delà de la salle de classe",
+      "public": "Enfants et adolescents de 7 à 16 ans",
+      "intro": "Samedi+ propose aux enfants et adolescents des activités pratiques, créatives et numériques qui complètent les apprentissages scolaires.\n\nLe programme vise à développer la curiosité, l’expérimentation et les compétences utiles au-delà de la salle de classe.",
+      "nom": "Samedi+",
+      "zone": "",
+      "sections": [
+        {
+          "titre": "Les univers explorés",
+          "liste": [
+            "Numérique",
+            "Créativité",
+            "STEM",
+            "Soft skills",
+            "Éducation financière",
+            "Culture et découverte",
+            "Résolution de problèmes"
+          ]
+        },
+        {
+          "titre": "Notre approche",
+          "texte": "Les participants apprennent en faisant : expérimenter, créer, résoudre, présenter et collaborer."
+        }
+      ],
+      "cta": "Découvrir Samedi+",
+      "titre": "Apprendre autrement.",
+      "ton": "o",
+      "statut": "actif",
+      "ordre": 4,
+      "format": "Activités pratiques, créatives et numériques",
+      "signature": "Apprendre autrement.",
+      "tags": "Numérique · créativité · STEM · découverte",
+      "id": "samedi-plus"
     },
     {
-     "titre": "Notre approche",
-     "texte": "Les participants apprennent en faisant : expérimenter, créer, résoudre, présenter et collaborer."
-    }
-   ],
-   "cta": "Découvrir Samedi+"
-  },
-  {
-   "id": "tremplin-plus",
-   "nom": "Tremplin+",
-   "ordre": 5,
-   "statut": "actif",
-   "ton": "",
-   "signature": "Des compétences utiles pour mieux développer son activité.",
-   "accroche": "Accompagner les artisans, ouvriers et travailleurs indépendants dans le développement de leurs compétences.",
-   "tags": "Numérique · gestion · finance · droit",
-   "titre": "Des compétences utiles pour mieux développer son activité.",
-   "public": "Artisans, ouvriers, travailleurs indépendants et acteurs de métiers pratiques, principalement âgés de 18 à 40 ans",
-   "besoin": "Compétences pour gérer et développer son activité",
-   "format": "Démonstrations, exercices pratiques, supports visuels",
-   "zone": "",
-   "intro": "Tremplin+ accompagne les artisans, ouvriers, travailleurs indépendants et personnes exerçant une activité pratique dans le développement de compétences utiles à leur autonomie et à la gestion de leur activité.",
-   "sections": [
-    {
-     "titre": "Les compétences travaillées",
-     "liste": [
-      "Utilisation du numérique",
-      "Gestion quotidienne",
-      "Éducation financière",
-      "Notions juridiques",
-      "Productivité",
-      "Communication",
-      "Commercialisation",
-      "Accès à l’information et aux services"
-     ]
+      "accroche": "Accompagner les artisans, ouvriers et travailleurs indépendants dans le développement de leurs compétences.",
+      "besoin": "Compétences pour gérer et développer son activité",
+      "public": "Artisans, ouvriers, travailleurs indépendants et acteurs de métiers pratiques, principalement âgés de 18 à 40 ans",
+      "intro": "Tremplin+ accompagne les artisans, ouvriers, travailleurs indépendants et personnes exerçant une activité pratique dans le développement de compétences utiles à leur autonomie et à la gestion de leur activité.",
+      "nom": "Tremplin+",
+      "zone": "",
+      "sections": [
+        {
+          "titre": "Les compétences travaillées",
+          "liste": [
+            "Utilisation du numérique",
+            "Gestion quotidienne",
+            "Éducation financière",
+            "Notions juridiques",
+            "Productivité",
+            "Communication",
+            "Commercialisation",
+            "Accès à l’information et aux services"
+          ]
+        },
+        {
+          "titre": "Une attention particulière à l’accessibilité",
+          "texte": "Les méthodes sont adaptées autant que possible aux différents niveaux de littératie et de familiarité avec le numérique.\n\nLes apprentissages privilégient les démonstrations, les exercices pratiques, les supports visuels et les situations directement liées à l’activité."
+        }
+      ],
+      "cta": "Découvrir Tremplin+",
+      "titre": "Des compétences utiles pour mieux développer son activité.",
+      "ton": "",
+      "statut": "actif",
+      "ordre": 5,
+      "format": "Démonstrations, exercices pratiques, supports visuels",
+      "signature": "Des compétences utiles pour mieux développer son activité.",
+      "tags": "Numérique · gestion · finance · droit",
+      "id": "tremplin-plus"
     },
     {
-     "titre": "Une attention particulière à l’accessibilité",
-     "texte": "Les méthodes sont adaptées autant que possible aux différents niveaux de littératie et de familiarité avec le numérique.\n\nLes apprentissages privilégient les démonstrations, les exercices pratiques, les supports visuels et les situations directement liées à l’activité."
-    }
-   ],
-   "cta": "Découvrir Tremplin+"
-  },
-  {
-   "id": "imarra-echos",
-   "nom": "Imarra Échos",
-   "ordre": 6,
-   "statut": "actif",
-   "ton": "m",
-   "signature": "Mettre les compétences au service de la communauté.",
-   "accroche": "La composante d’engagement communautaire associée au programme Imarra.",
-   "tags": "Engagement · transmission · citoyenneté",
-   "titre": "Des compétences qui deviennent des actions.",
-   "public": "Participantes du programme Imarra",
-   "besoin": "Mettre ses compétences au service de la communauté",
-   "format": "Actions communautaires, transmission",
-   "zone": "",
-   "parent": "imarra",
-   "intro": "Imarra Échos est la composante d’engagement communautaire associée au programme Imarra.\n\nLes participantes mobilisent les compétences développées pendant leur parcours pour contribuer à des actions utiles à leur communauté.",
-   "sections": [
+      "accroche": "La composante d’engagement communautaire associée au programme Imarra.",
+      "besoin": "Mettre ses compétences au service de la communauté",
+      "public": "Participantes du programme Imarra",
+      "parent": "imarra",
+      "intro": "Imarra Échos est la composante d’engagement communautaire associée au programme Imarra.\n\nLes participantes mobilisent les compétences développées pendant leur parcours pour contribuer à des actions utiles à leur communauté.",
+      "nom": "Imarra Échos",
+      "zone": "",
+      "sections": [
+        {
+          "titre": "Les principes",
+          "liste": [
+            "Transmission",
+            "Engagement",
+            "Citoyenneté",
+            "Sensibilisation",
+            "Action communautaire"
+          ],
+          "texte": "Imarra Échos permet ainsi de prolonger l’apprentissage par l’action et de valoriser les participantes comme actrices de leur communauté."
+        }
+      ],
+      "cta": "Découvrir Imarra Échos",
+      "titre": "Des compétences qui deviennent des actions.",
+      "ton": "m",
+      "statut": "actif",
+      "ordre": 6,
+      "format": "Actions communautaires, transmission",
+      "signature": "Mettre les compétences au service de la communauté.",
+      "tags": "Engagement · transmission · citoyenneté",
+      "id": "imarra-echos"
+    },
     {
-     "titre": "Les principes",
-     "liste": [
-      "Transmission",
-      "Engagement",
-      "Citoyenneté",
-      "Sensibilisation",
-      "Action communautaire"
-     ],
-     "texte": "Imarra Échos permet ainsi de prolonger l’apprentissage par l’action et de valoriser les participantes comme actrices de leur communauté."
-    }
-   ],
-   "cta": "Découvrir Imarra Échos"
-  },
-  {
-   "id": "nafasi",
-   "nom": "Nafasi",
-   "ordre": 7,
-   "statut": "developpement",
-   "ton": "o",
-   "signature": "Compétences, orientation et accès aux opportunités.",
-   "accroche": "Une initiative dédiée à l’accompagnement des jeunes et à leur mise en relation avec les ressources disponibles.",
-   "tags": "Orientation · réseau · mentorat · opportunités",
-   "titre": "Compétences, orientation et accès aux opportunités.",
-   "public": "Jeunes",
-   "besoin": "Accès aux ressources, réseaux et opportunités",
-   "format": "Orientation, mise en relation, mentorat",
-   "zone": "",
-   "intro": "Nafasi est une initiative d’accompagnement des jeunes qui met l’accent sur l’orientation, l’accès aux ressources et la mise en relation avec les acteurs et dispositifs utiles à leur parcours.",
-   "sections": [
+      "accroche": "Une initiative dédiée à l’accompagnement des jeunes et à leur mise en relation avec les ressources disponibles.",
+      "besoin": "Accès aux ressources, réseaux et opportunités",
+      "public": "Jeunes",
+      "intro": "Nafasi est une initiative d’accompagnement des jeunes qui met l’accent sur l’orientation, l’accès aux ressources et la mise en relation avec les acteurs et dispositifs utiles à leur parcours.",
+      "nom": "Nafasi",
+      "zone": "",
+      "sections": [
+        {
+          "titre": "Ce que nous facilitons",
+          "liste": [
+            "Orientation",
+            "Information",
+            "Mise en relation",
+            "Mentorat",
+            "Accès aux réseaux",
+            "Identification d’opportunités"
+          ],
+          "texte": "Nafasi vise à faciliter le passage entre une volonté d’agir et les ressources nécessaires pour avancer."
+        }
+      ],
+      "cta": "Découvrir Nafasi",
+      "titre": "Compétences, orientation et accès aux opportunités.",
+      "ton": "o",
+      "statut": "developpement",
+      "ordre": 7,
+      "format": "Orientation, mise en relation, mentorat",
+      "signature": "Compétences, orientation et accès aux opportunités.",
+      "tags": "Orientation · réseau · mentorat · opportunités",
+      "id": "nafasi"
+    },
     {
-     "titre": "Ce que nous facilitons",
-     "liste": [
-      "Orientation",
-      "Information",
-      "Mise en relation",
-      "Mentorat",
-      "Accès aux réseaux",
-      "Identification d’opportunités"
-     ],
-     "texte": "Nafasi vise à faciliter le passage entre une volonté d’agir et les ressources nécessaires pour avancer."
+      "accroche": "Mis en œuvre de juin 2023 à mars 2024, Jaano a accompagné 20 jeunes de 18 à 35 ans, dont 14 femmes.",
+      "badge": "Réalisé · 2023-2024",
+      "besoin": "",
+      "statutTexte": "Programme réalisé - 2023-2024",
+      "public": "Jeunes de 18 à 35 ans",
+      "intro": "Mis en œuvre de juin 2023 à mars 2024, Jaano a accompagné 20 jeunes de 18 à 35 ans, dont 14 femmes, autour du développement personnel, de l’inclusion numérique, de l’entrepreneuriat, de l’engagement citoyen et de la cohésion sociale.\n\nLa phase Edunova+ a également intégré une sensibilisation aux VBG et un accompagnement par le mentorat.",
+      "nom": "Jaano",
+      "zone": "",
+      "sections": [],
+      "cta": "Découvrir Jaano",
+      "titre": "Jaano",
+      "ton": "",
+      "statut": "realise",
+      "ordre": 8,
+      "format": "",
+      "signature": "Renforcement des capacités et engagement des jeunes",
+      "tags": "",
+      "id": "jaano"
     }
-   ],
-   "cta": "Découvrir Nafasi"
-  },
-  {
-   "id": "jaano",
-   "nom": "Jaano",
-   "ordre": 8,
-   "statut": "realise",
-   "ton": "",
-   "signature": "Renforcement des capacités et engagement des jeunes",
-   "accroche": "Mis en œuvre de juin 2023 à mars 2024, Jaano a accompagné 20 jeunes de 18 à 35 ans, dont 14 femmes.",
-   "tags": "",
-   "titre": "Jaano",
-   "public": "Jeunes de 18 à 35 ans",
-   "besoin": "",
-   "format": "",
-   "zone": "",
-   "intro": "Mis en œuvre de juin 2023 à mars 2024, Jaano a accompagné 20 jeunes de 18 à 35 ans, dont 14 femmes, autour du développement personnel, de l’inclusion numérique, de l’entrepreneuriat, de l’engagement citoyen et de la cohésion sociale.\n\nLa phase Edunova+ a également intégré une sensibilisation aux VBG et un accompagnement par le mentorat.",
-   "sections": [],
-   "cta": "Découvrir Jaano",
-   "badge": "Réalisé · 2023-2024",
-   "statutTexte": "Programme réalisé - 2023-2024"
-  }
- ]
+  ]
 }
